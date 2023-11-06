@@ -1,0 +1,110 @@
+<!-- Home page HTML template -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<title>Work Experience</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+</head>
+<body>
+
+<!-- Navigation Bar conditional on login status -->
+<div class="nav">
+	<ul>
+		<li><a class="/index" href="/">Home</a></li>
+		<li><a href="/work">Work Experience</a></li>
+		<li><a href="/teaching">Teaching Experience</a></li>
+		<li><a href="/skills">Technical Skills</a></li>
+	</ul>
+</div>
+
+<div class="main">
+	<p><b>Computational Methods Internship</b> - Naval Nuclear Laboratory (6/23 - 8/23)</p>
+	<ul>
+		<li>Development of generalized models and other software using reduced order modeling and operator learning.</li>
+	</ul>
+
+	<p><b>Data Science Internship</b> - Naval Nuclear Laboratory (5/22 - 8/22)</p>
+	<ul>
+		<li>Developed an autoencoder to reconstruct given images and identify a reconstruction error from the resulting reconstruction.</li>
+		<li>Clustered reconstruction error features with a Gaussian Mixture Model to identify anomalous images.</li>
+		<li>Developed an unsupervised classification process using an autoencoder and Gaussian Mixture Model algorithm to 
+		identify flaws within Phased Array Ultrasonic Test data with an F1 score of approximately 0.96.</li>
+		<li>Created an automated process to identify contours of interest within an image using OpenCV, and then extracted subsets around each contour. </li>
+	</ul>
+
+	<p><b>Data Science Internship</b> - Naval Nuclear Laboratory (5/21 - 8/21)</p>
+	<ul>
+		<li>Developed machine learning regression models such as neural networks, random forests, decision trees, and polynomial regression.</li>
+		<li>Used Python on a local PC and in a Hadoop environment to clean and analyze large datasets, and train machine learning models.</li>
+		<li>Developed anomaly classification models such as independent forest and local outlier factor. </li>
+	</ul>
+
+	<p><b>Physics Research Assistant</b> - Penn State (1/20 - 7/20)</p>
+	<ul>
+		<li>Made use of data to identify correlation between Cognitive Reflection Test scores and students’ ability to solve logical problems.</li>
+		<li>Identified a beneficial trend in solving logical problems for students given a Cognitive Reflection Test beforehand.</li>
+		<li>Integrated and cleaned multiple large data sets.</li>
+		<li>Performed statistical tests on these data sets using SAS Programming.</li>
+	</ul>
+	
+	<p><b>Intern</b> - Data Science Automation (5/19 - 8/19)</p>
+	<ul>
+		<li>Manufactured control boxes for semi-conductor furnaces.</li>
+		<li>Organized efficient work practices to streamline assembly.</li>
+	</ul>
+</div>
+
+
+<!-- CSS information for the navigation bar. -->
+<style>
+
+.main {
+    align-items: center;
+    justify-content: center;	
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	padding-top: 50px;
+	font-size: 22px;
+}
+
+.nav {
+	width: 100%;
+	background-color: #444;
+	position:absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	font-size: 25px;
+}
+
+.nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.nav li {
+	float: left;
+}
+
+.nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+}
+
+.nav li a:hover {
+	background-color: #111;
+	text-decoration: none;
+}
+</style>
+
+		
+</body>
+</html>

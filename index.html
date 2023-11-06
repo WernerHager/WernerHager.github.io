@@ -1,0 +1,128 @@
+<!-- Home page HTML template -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<title>Werner Hager</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+</head>
+<body>
+
+<!-- Navigation Bar conditional on login status -->
+<div class="nav">
+	<ul>
+		<li><a class="/index" href="/">Home</a></li>
+		<li><a href="/work">Work Experience</a></li>
+		<li><a href="/teaching">Teaching Experience</a></li>
+		<li><a href="/skills">Technical Skills</a></li>
+	</ul>
+</div>
+
+<div class="main">
+	<div class="container">
+		<div class="image">
+			<img src="profile.jpg" alt="Profile Picture" width="500" height="600">
+		</div>
+		<div class="text">
+			<h1>Werner Hager</h1>
+			<h4>Intelligent Systems Program<h4>
+			<h4>University of Pittsburgh<h4>
+			<h3>Email</h3>
+			<span> WWH10@pitt.edu </span>
+		</div>
+	</div>
+	<p>
+	I am a Ph.D. student at the University of Pittsburgh in the Intelligent Systems Program. 
+	My research advisor is Dr. Michael Lewis, and I am a Rickover Fellow. I received my
+	undergraduate degree in Computational Data Science from Penn State.
+	</p>
+	<p>
+	My research and academic interests are primarily in Physics-informed machine learning, 
+	computer vision, and applications with robotic swarms. In particular for cases where fully
+	supervised learning is impractical or the environment of the swarm is complex.
+	</p>
+</div>
+
+
+<!-- CSS information for the navigation bar. -->
+<style>
+
+.main {
+    align-items: center;
+    justify-content: center;	
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	padding-top: 5px;
+	font-size: 22px;
+}
+
+
+.container {
+	display: flex;
+    align-items: center;
+    justify-content: center;	
+}
+
+img {
+	padding-top: 70px;
+	max-width:480px;
+	max-height:600px;
+	float: left;
+}
+
+.text {
+	max-width: 50%;
+	font-size: 20px;
+	padding-left: 5px;
+	float: left;
+}
+
+.text h4 {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.text h3 {
+	margin-bottom: 0px;
+}
+
+.nav {
+	width: 100%;
+	background-color: #444;
+	position:absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	font-size: 25px;
+}
+
+.nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.nav li {
+	float: left;
+}
+
+.nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+}
+
+.nav li a:hover {
+	background-color: #111;
+	text-decoration: none;
+}
+</style>
+
+		
+</body>
+</html>
